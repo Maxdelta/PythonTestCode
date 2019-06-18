@@ -1,0 +1,11 @@
+
+name = input("What is your name? ")
+
+age = int(input(name + ", Input your age: "))
+
+if age >=21:
+    print(name + ", you are drinking age lets go have a beer.")
+elif age >= 19:
+    print(name + ", you are a crazy teenager.")
+else:
+    print(name + ", you are a child. Go to bed.")
